@@ -1,0 +1,8 @@
+tool:
+  users:
+    user:
+      dotconfig: True
+  bat:
+    users:
+      user:
+        dotconfig: False
