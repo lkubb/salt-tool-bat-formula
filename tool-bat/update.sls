@@ -1,6 +1,6 @@
 {%- from 'tool-bat/map.jinja' import bat %}
 
-{%- if bat.users | selectattr('dotconfig') %}
+{%- if bat.users | selectattr('dotconfig', 'defined') | selectattr('dotconfig') %}
 include:
   - .configsync
 {%- endif %}

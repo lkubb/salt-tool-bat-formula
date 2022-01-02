@@ -1,6 +1,6 @@
 {%- from 'tool-bat/map.jinja' import bat %}
 
-{%- for user in bat.users | selectattr('dotconfig') %}
+{%- for user in bat.users | selectattr('dotconfig', 'defined') | selectattr('dotconfig') %}
 bat configuration is synced for user '{{ user.name }}':
   file.recurse:
     - name: {{ user._bat.confdir }}
