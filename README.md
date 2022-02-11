@@ -46,6 +46,8 @@ tool:
 The following shows an example of `tool-bat` pillar configuration. Namespace it to `tool:users` and/or `tool:bat:users`.
 ```yaml
 user:
+  # sync bat configuration from dotfiles repo available as
+  # salt://dotconfig/<user>/bat or salt://dotconfig/bat
   dotconfig: true
 ```
 

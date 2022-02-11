@@ -1,8 +1,6 @@
 tool:
   users:
     user:
-      dotconfig: True
-  bat:
-    users:
-      user:
-        dotconfig: False
+      # sync bat configuration from dotfiles repo available as
+      # salt://dotconfig/<user>/bat or salt://dotconfig/bat
+      dotconfig: true
