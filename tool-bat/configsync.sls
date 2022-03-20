@@ -10,7 +10,7 @@ bat configuration is synced for user '{{ user.name }}':
       - salt://dotconfig/{{ user.name }}/bat
       - salt://dotconfig/bat
     - context:
-        user: {{ user }}
+        user: {{ user | json }}
     - template: jinja
     - user: {{ user.name }}
     - group: {{ user.group }}
