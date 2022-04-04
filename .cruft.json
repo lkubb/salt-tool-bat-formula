@@ -1,0 +1,46 @@
+{
+  "template": "https://github.com/lkubb/salt-tool-template-formula",
+  "commit": "a3c18e4a093155f5e3d51bcd77ea10d0b55b74cf",
+  "checkout": null,
+  "context": {
+    "cookiecutter": {
+      "_extensions": [
+        "local_extensions.YAMLDumper"
+      ],
+      "_jinja2_env_vars": {
+        "block_start_string": "{!",
+        "block_end_string": "!}",
+        "variable_start_string": "{=",
+        "variable_end_string": "=}",
+        "comment_start_string": "{@",
+        "comment_end_string": "@}"
+      },
+      "name": "bat",
+      "abbr": "bat",
+      "abbr_pysafe": "bat",
+      "pkg": "bat",
+      "modstate": "n",
+      "needs_repo": "n",
+      "has_service": "n",
+      "mac_library": "n",
+      "mac_cask": "n",
+      "has_xdg": "y",
+      "needs_xdg_help": "n",
+      "has_conffile_only": "n",
+      "default_confdir": ".config/bat",
+      "default_confdir_mac": ".config/bat",
+      "default_conffile": "config",
+      "xdg_dirname": "bat",
+      "xdg_conffile": "config",
+      "has_configsync": "y",
+      "has_config_template": "n",
+      "has_tests": "y",
+      "git_username": "lkubb",
+      "_lookup": {},
+      "_settings": {},
+      "_usersettings": {},
+      "_template": "https://github.com/lkubb/salt-tool-template-formula"
+    }
+  },
+  "directory": null
+}
