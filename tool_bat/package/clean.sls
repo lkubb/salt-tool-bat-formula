@@ -9,6 +9,7 @@
 include:
   - {{ sls_config_clean }}
 
+
 bat is removed:
   pkg.removed:
     - name: {{ bat.lookup.pkg.name }}

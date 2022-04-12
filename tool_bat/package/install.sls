@@ -5,6 +5,7 @@
 {%- set tplroot = tpldir.split('/')[0] %}
 {%- from tplroot ~ "/map.jinja" import mapdata as bat with context %}
 
+
 bat is installed:
   pkg.installed:
     - name: {{ bat.lookup.pkg.name }}
