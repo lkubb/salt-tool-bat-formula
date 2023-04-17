@@ -1,7 +1,10 @@
-# -*- coding: utf-8 -*-
 # vim: ft=sls
 
-{%- set tplroot = tpldir.split('/')[0] %}
+{#-
+    Removes the configuration of the bat package.
+#}
+
+{%- set tplroot = tpldir.split("/")[0] %}
 {%- from tplroot ~ "/map.jinja" import mapdata as bat with context %}
 
 
@@ -9,9 +12,9 @@
 
 bat config file is cleaned for user '{{ user.name }}':
   file.absent:
-    - name: {{ user['_bat'].conffile }}
+    - name: {{ user["_bat"].conffile }}
 
 bat config dir is absent for user '{{ user.name }}':
   file.absent:
-    - name: {{ user['_bat'].confdir }}
+    - name: {{ user["_bat"].confdir }}
 {%- endfor %}

@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 # vim: ft=yaml
 ---
 tool_global:
@@ -21,6 +20,9 @@ tool_bat:
     paths:
       confdir: '.config/bat'
       conffile: 'config'
+      xdg_dirname: 'bat'
+      xdg_conffile: 'config'
+    rootgroup: root
 
   tofs:
     # The files_switch key serves as a selector for alternative

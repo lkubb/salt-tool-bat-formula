@@ -22,6 +22,8 @@ values:
     paths:
       confdir: '.config/bat'
       conffile: 'config'
+      xdg_dirname: 'bat'
+      xdg_conffile: 'config'
     rootgroup: root
   map_jinja:
     sources:
