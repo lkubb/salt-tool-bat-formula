@@ -1,5 +1,5 @@
-Welcome to salt-tool-bat-formula's documentation!
-=================================================
+Welcome to tool-bat-formula's documentation!
+============================================
 
 .. toctree::
    :maxdepth: 2
